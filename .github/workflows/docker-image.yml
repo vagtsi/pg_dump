@@ -1,16 +1,11 @@
 name: Docker Image CI
 
 on:
-  schedule:
-    - cron: '0 5 * * *'
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+  workflow_dispatch:
     
 jobs:
 
-  bld-and-push:
+  build-and-push:
     strategy:
       matrix:
         version: ['16.1']
