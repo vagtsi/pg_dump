@@ -1,8 +1,10 @@
-martlark/pg_dump
+vagtsi/pg_dump
 ================
 
+**Fork of [martlark/pg_dump](https://github.com/Martlark/pg_dump) updated to latest PostgreSQL version as of `16.1` for now.**
+
 Docker image with pg_dump running as a cron task. Find the image
-here: https://hub.docker.com/repository/docker/martlark/pg_dump
+here: https://hub.docker.com/repository/docker/vagtsi/pg_dump
 
 ## Usage
 
